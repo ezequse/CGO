@@ -1,0 +1,87 @@
+body {
+  background-image: url('bg3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  
+}
+
+.headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+.sv1 {
+  cursor: pointer;
+  border-style: outset;
+}
+
+.sv2 {
+  cursor: pointer;
+  border-style: outset;
+}
+
+.sv3 {
+  cursor: pointer;
+  border-style: outset;
+}
+
+.redes {
+  height: 32px;
+  padding: 12px 5px 15px 0;
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+
+.text {
+  color: white;
+  
+}
+
+.pos1 {
+  height: 100px;
+  color: white;
+  position: absolute;
+  bottom: 320px;
+  left: 310px;
+  font-size: 64px;
+}
+
+.pos2 {
+  height: 100px;
+  color: white;
+  position: absolute;
+  bottom: 320px;
+  right: 310px;
+  font-size: 64px;
+}
+
+
+
+
+
+
+.IMGS {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50px 300px 300px ;
+  column-gap: 10px;
+  justify-items: center;
+}
+
+.img1 {
+  grid-column: 2/2;
+}
+
+.img2 {
+  grid-column: 1/2;
+}
+
+
+
